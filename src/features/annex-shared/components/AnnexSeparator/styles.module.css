@@ -1,0 +1,17 @@
+.bar {
+    height: 1em;
+    margin-top: 0.67em;
+    margin-left: 0.67em;
+    margin-right: 0.67em;
+    margin-bottom: 1em;
+}
+
+.leftAlign {
+    display: flex;
+    align-items: flex-begin;
+}
+
+.leftAlign h1 {
+    margin-left: 0.67em;
+    margin-bottom: 0em;
+}

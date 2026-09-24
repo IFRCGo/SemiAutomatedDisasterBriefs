@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+body {
+}
+
+.indicator {
+    font-family: 'Montserrat', sans-serif;
+    background-color: 'White';
+}
+
+.indicatorBox {
+    background-color: var(--go-ui-color-gray-30);
+}
+
+.indicatorValue {
+    color: var(--go-ui-color-primary-blue);
+    padding: 1em;
+    margin: 0;
+}
+
+.indicatorLabel {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--go-ui-color-primary-red);
+    margin: 0;
+    font-weight: 600;
+}
+
+.partial {
+    width: 95%;
+}
+
+.full {
+    width: 100%;
+}
