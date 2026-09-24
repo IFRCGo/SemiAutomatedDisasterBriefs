@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+.chartSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--go-ui-color-primary-red, #f5333f);
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.trendsTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.trendsTable th {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #666;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.trendsTable td {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 1.25rem 0.5rem;
+    border-bottom: 1px solid #eee;
+    color: var(--go-ui-color-primary-blue, #002244);
+}
+
+.trendsTable td:first-child {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--go-ui-color-primary-red, #f5333f);
+    font-size: 1rem;
+}

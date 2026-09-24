@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+.chartTitle {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    width: 100%;
+    min-height: 240px;
+    height: 100%;
+}
